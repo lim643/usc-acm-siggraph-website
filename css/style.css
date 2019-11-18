@@ -20,7 +20,7 @@ p {
 
 .banner,
 .divide,
-.footer-it,
+#footer-it,
 .nav ul li,
 h5.set,
 h5.set .full,
@@ -80,6 +80,8 @@ html {
 body,
 html {
     height: 100%
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -190,9 +192,11 @@ img.img-fallback {
 
 .logo {
     position: absolute;
-    bottom: 5%;
+    /*bottom: 5%;*/
+    top: 5%;
     left: 0;
-    width: 65%;
+    /*width: 65%;*/
+    width: 20%;
     height: auto;
     z-index: 10
 }
@@ -203,14 +207,14 @@ h5 {
     font-weight: 500
 }
 
-.footer,
+#footer,
 h1,
 p {
     font-family: Helvetica, Arial, sans-serif
 }
 
 .close:active,
-.footer a:active,
+#footer a:active,
 .item:active,
 .logo a:active,
 .nav ul li a:active,
@@ -340,7 +344,7 @@ h5 {
     width: 100%;
     max-width: 1320px;
     height: 100%;
-    padding-left: 340px;
+    /*padding-left: 340px;*/
     z-index: 1
 }
 
@@ -456,7 +460,8 @@ h5 {
 
 .nav {
     position: fixed;
-    bottom: 5%;
+    /*bottom: 5%;*/
+    top: 5%;
     left: 0;
     padding-left: 340px;
     width: 100%;
@@ -491,8 +496,24 @@ h5 {
     color: #FC0
 }
 
-.footer {
-    position: fixed;
+#footer {
+
+    padding: 12px 10px;
+
+    color: white;
+
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+    /*align-items: flex-end;*/
+
+    /*position: fixed;
     bottom: 0;
     left: 0;
     padding-left: 40px;
@@ -503,7 +524,7 @@ h5 {
     letter-spacing: .085em;
     color: #999;
     z-index: 100;
-    margin-bottom: 10px
+    margin-bottom: 10px*/
 }
 
 p,
@@ -511,20 +532,20 @@ p.body {
     font-size: 1em
 }
 
-.footer a,
-.footer a:visited {
+#footer a,
+#footer a:visited {
     color: #999;
     text-decoration: none
 }
 
-.footer a:visited,
-.footer-it a,
+#footer a:visited,
+#footer-it a,
 h5,
 p.body {
     color: #ccc
 }
 
-.footer-it {
+#footer-it {
     padding-right: 24px;
     width: auto
 }
@@ -534,7 +555,7 @@ p.text-bt {
     padding-right: 12px
 }
 
-.footer-it.min {
+#footer-it.min {
     min-width: 310px
 }
 
@@ -755,12 +776,13 @@ h5 a:visited {
         margin-left: 20px;
         width: 250px
     }
-    .footer-it.min {
+    /*#footer-it.min {
         min-width: 0;
         width: auto
-    }
+    }*/
     .logo {
-        width: 70%
+        /*width: 70%*/
+        width: 20%
     }
     p.body {
         font-size: .9em
@@ -771,15 +793,15 @@ h5 a:visited {
     .banner-wrapper,
     .grid,
     .sc {
-        padding-left: 290px
+        /*padding-left: 290px*/
     }
     .hero {
         margin-bottom: 120px;
         min-height: 150px
     }
-    .footer {
+    /*#footer {
         padding-left: 302px
-    }
+    }*/
     .nav {
         padding-left: 290px
     }
@@ -832,7 +854,7 @@ h5 a:visited {
     .menu-toggle {
         background: #1a1a1a
     }
-    .footer,
+    #footer,
     .grid,
     .nav {
         float: left
@@ -994,12 +1016,12 @@ h5 a:visited {
         padding-top: 75px;
         margin-bottom: 0
     }
-    .footer {
+    /*#footer {
         position: relative;
         padding-left: 72px;
         height: 45px;
         z-index: 10
-    }
+    }*/
 }
 
 @media only screen and (max-width:520px) {

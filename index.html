@@ -37,9 +37,58 @@
 </head>
 
 <body>
+
+    <!--DESKTOP NAVIGATION-->
+    <nav class=nav>
+
+        <div id=logo-con class=logo>
+            <a id=logo href=http://usc.siggraph.org/>
+                <img src=img/logo-usc-siggraph.svg alt="USC SIGGRAPH">
+            </a>
+        </div>
+        
+        <ul id=list>
+            <li id=l-1>
+                <a id=a-1 href>
+                    Events
+                    <span class="divide link"><span class=line></span></span>
+                </a>
+            </li>
+            <li id=l-2>
+                <a id=a-2 href>
+                    News
+                    <span class="divide link"><span class=line></span></span>
+                </a>
+            </li>
+            <li id=l-3>
+                <a id=a-3 href>
+                    Topics
+                    <span class="divide link"><span class=line></span></span>
+                </a>
+            </li>
+            <li id=l-4>
+                <a id=a-4 href>
+                    About
+                    <span class="divide link"><span class=line></span></span>
+                </a>
+            </li>
+            <li id=l-5>
+                <a id=a-5 href>
+                    Gallery
+                    <span class="divide link"><span class=line></span></span>
+                </a>
+            </li>
+            <li id=l-6>
+                <a id=a-6 href>
+                    Sponsors
+                    <span class="divide link"><span class=line></span></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
     
     <!-- HEADER STUFF -->
-    <header class=sc-h>
+    <!-- <header class=sc-h>
         <div id=logo-con class=logo>
             <a id=logo href=http://usc.siggraph.org/>
                 <img src=img/logo-usc-siggraph.svg alt="USC SIGGRAPH">
@@ -47,7 +96,7 @@
         </div>
         <div class=info>
             
-            <!-- EMAIL -->
+            EMAIL
             <h5>
                 <a href = "mailto:siggraph@usc.edu">
                     siggraph@usc.edu
@@ -56,7 +105,7 @@
                 
             </h5>
             
-            <!-- FACEBOOK -->
+            FACEBOOK
             <h5>
                 <a id=facebook href=https://www.facebook.com/uscsiggraph/>
                     facebook.com/uscsiggraph/
@@ -64,7 +113,7 @@
                 <span class="divide link-alt"></span>
             </h5>
     
-            <!-- TWITTER -->
+            TWITTER
             <h5>
                 <a id=facebook href=https://www.twitter.com/USC_SIGGRAPH>
                     @USC_SIGGRAPH
@@ -79,7 +128,7 @@
             <div class=m-line></div>
             <div class=m-line></div>
         </div>
-    </header>
+    </header> -->
 
 
     <!-- MOBILE STUFF -->
@@ -377,66 +426,45 @@
         <img class=gallery>
     </div>
 
-    <!--DESKTOP NAVIGATION-->
-    <nav class=nav>
-        <ul id=list>
-            <li id=l-1>
-                <a id=a-1 href>
-                    Events
-                    <span class="divide link"><span class=line></span></span>
-                </a>
-            </li>
-            <li id=l-2>
-                <a id=a-2 href>
-                    News
-                    <span class="divide link"><span class=line></span></span>
-                </a>
-            </li>
-            <li id=l-3>
-                <a id=a-3 href>
-                    Topics
-                    <span class="divide link"><span class=line></span></span>
-                </a>
-            </li>
-            <li id=l-4>
-                <a id=a-4 href>
-                    About
-                    <span class="divide link"><span class=line></span></span>
-                </a>
-            </li>
-            <li id=l-5>
-                <a id=a-5 href>
-                    Gallery
-                    <span class="divide link"><span class=line></span></span>
-                </a>
-            </li>
-            <li id=l-6>
-                <a id=a-6 href>
-                    Sponsors
-                    <span class="divide link"><span class=line></span></span>
-                </a>
-            </li>
-        </ul>
-    </nav>
+    <!--formerly DESKTOP NAVIGATION-->
+    
 
-    <!--FOOTER-->
-    <footer class=footer>
-        
-        <!--ACM SIGGRAPH LINK-->
-        <div class="footer-it min">
-            <a href=http://www.siggraph.org/> Visit the Official SIGGRAPH Website
-            </a>
-        </div>
-        
-        <!--COPYRIGHT-->
-        <div class=footer-it>
-            &copy; 2015-2016 USC ACM SIGGRAPH Student Chapter
-        </div>
 
-    </footer>
+    
     <div id=overlay class=overlay></div>
     <div class="overlay o-color"></div>
     <div id=container></div>
+
+
+
+
+
+    <!--FOOTER-->
+    <footer id="footer">
+        
+        <!--ACM SIGGRAPH LINK-->
+        <!-- <div class="footer-it min">
+            <a href="http://www.siggraph.org/"> Visit the Official SIGGRAPH Website
+            </a>
+        </div> -->
+
+        <div class="mailing-button">
+            <a href="??" target="_blank">Subscribe to Our Mailing List</a>
+        </div>
+
+        <div id="social-media">
+            <a href="mailto:siggraph@usc.edu"><img src="https://sparksc.org/images/social/mail.svg"></a>
+            <a href="https://www.facebook.com/uscsiggraph/" target="_blank"><img src="https://sparksc.org/images/social/facebook.svg"></a>
+            <a href="https://twitter.com/USC_SIGGRAPH" target="_blank"><img src="https://sparksc.org/images/social/twitter.svg"></a>
+        </div>
+
+        
+        <!--COPYRIGHT-->
+        <div id="footer-it">
+            © 2015-2016 USC ACM SIGGRAPH Student Chapter
+        </div>
+
+    </footer>
 
 
     <script>
