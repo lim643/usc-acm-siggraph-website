@@ -192,10 +192,7 @@ img.img-fallback {
 
 .logo {
     position: absolute;
-    /*bottom: 5%;*/
-    top: 5%;
     left: 0;
-    /*width: 65%;*/
     width: 20%;
     height: auto;
     z-index: 10
