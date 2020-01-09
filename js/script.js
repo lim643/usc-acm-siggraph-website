@@ -1,4 +1,5 @@
 function events() {
+    $("#content").hide();
     var obj = $("#li-1");
     obj.html('<div class="grid"><div class="intro"><h1>Events</h1></div></div>');
     var str = "";
@@ -13,6 +14,7 @@ function events() {
 }
 
 function news() {
+    $("#content").hide();
     var obj = $("#li-2");
     obj.html('<div class="grid"><div class="intro"><h1>News</h1></div></div>');
     var str = "";
@@ -27,19 +29,16 @@ function news() {
 }
 
 function topics() {
+    $("#content").hide();
     $("#li-3").show(0, function () {
         $(this).addClass("show-page")
     })
 }
 
 function about() {
+    $("#content").hide();
     $("#li-4").show(0, function () {
         $(this).addClass("show-page")
-    })
-}
-function sponsors(){
-    $("#li-6").show(0, function () {
-        $(this).addClass("show-page")              
     })
 }
 function clearLogo() {
@@ -72,22 +71,6 @@ function clearCurrent(e) {
     }), hero.addClass("hero-hide"), content.removeClass("content-active"), gallery.removeClass("gallery-show"), setTimeout(function () {
         hero.hide(), content.hide()
     }, 650)
-}
-
-function galleryImage(e) {
-    gallery.on("click", ".btn", function (s) {
-        $(this).is("#left") ? (e--, 1 > e && (s.preventDefault(), e = 1)) : $(this).is("#right") && (e++, e > numGallery && (s.preventDefault(), e = numGallery)), gal.attr("src", "img/gallery/" + e + ".jpg")
-    })
-}
-
-function galleryShow() {
-    $("#list li#l-5").find(".line").add("#m-list li#ml-5").find(".line").addClass("link-active"), $("#a-5,#ma-5").addClass("current"), closeModal(), gallery.show(0, function () {
-        $(this).addClass("gallery-show")
-    }), count = 1, gal.attr("src", "img/gallery/" + count + ".jpg"), galleryImage(count), gallery.hasClass("gallery-show") && close.add(overlay).on("click", function () {
-        count = 1, window.location.hash = "", setTimeout(function () {
-            clearHome(), line.removeClass("link-active"), liA.removeClass("current"), closeModalAlt()
-        }, 650)
-    })
 }
 
 function mobileMenu() {
