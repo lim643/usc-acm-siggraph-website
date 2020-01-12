@@ -5,11 +5,11 @@ header, main, footer, #container, .nav, .line, .bg.bg-bt {
 	transition: all 550ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .page, #gallery, .content  {
-	-webkit-transform: perspective(400px) rotateX(4deg) rotateY(6deg);
+	/*-webkit-transform: perspective(400px) rotateX(4deg) rotateY(6deg);*/
 	-moz-transform: perspective(400px) rotateX(4deg) rotateY(6deg);
 	-ms-transform: perspective(400px) rotateX(4deg) rotateY(6deg);
 	-o-transform: perspective(400px) rotateX(4deg) rotateY(6deg);
-	transform: perspective(400px) rotateX(4deg) rotateY(6deg);
+	/*transform: perspective(400px) rotateX(4deg) rotateY(6deg);*/
 	-webkit-transition: all 650ms cubic-bezier(0.645, 0.045, 0.355, 1);
 	-moz-transition: all 650ms cubic-bezier(0.645, 0.045, 0.355, 1);
 	-o-transition: all 650ms cubic-bezier(0.645, 0.045, 0.355, 1);

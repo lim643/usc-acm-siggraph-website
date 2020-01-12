@@ -57,11 +57,15 @@ summary {
 .menu-show,
 .overlay,
 .page {
-    display: none
+    /*display: none*/
 }
 
 html {
     box-sizing: border-box
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 *,
@@ -127,8 +131,8 @@ body {
 
 .page,
 .sc-h {
-    left: 0;
-    top: 0
+    /*left: 0;*/
+    /*top: 0*/
 }
 
 img.img-fallback {
@@ -138,13 +142,13 @@ img.img-fallback {
 }
 
 .page {
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
-    height: auto;
-    opacity: 0
+    /*height: auto;*/
+    /*opacity: 0*/
 }
 
-.page.show-page {
+.page/*.show-page*/ {
     z-index: 2;
     opacity: 1
 }
@@ -232,7 +236,7 @@ h5 a:active {
     height: 70%;
     max-width: 520px;
     z-index: 103;
-    opacity: 0
+    /*opacity: 0*/
 }
 
 .item-content {
@@ -277,13 +281,13 @@ h5 {
 
 .hero-hide {
     bottom: -5%;
-    opacity: 0
+    /*opacity: 0*/
 }
 
 .content {
     position: relative;
     height: 100%;
-    opacity: 0;
+    /*opacity: 0;*/
     padding-left: 230px;
     margin-top: 50px;
 }
