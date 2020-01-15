@@ -278,14 +278,12 @@ h5 {
 
 .hero-hide {
     bottom: -5%;
-    /*opacity: 0*/
 }
 
 .content {
     position: relative;
     height: 100%;
-    /*opacity: 0;*/
-    padding-left: 230px;
+    margin-left: 230px;
     margin-top: 50px;
 }
 
