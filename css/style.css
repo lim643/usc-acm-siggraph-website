@@ -190,6 +190,7 @@ img.img-fallback {
 
 .header ul li,
 h5 {
+    font-family: 'Source Code Pro', Courier, serif;
     font-weight: 500
 }
 
