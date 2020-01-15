@@ -1,4 +1,4 @@
-#container,
+.container,
 .fallback,
 .overlay {
     position: fixed;
@@ -85,7 +85,7 @@ body {
     overflow-x: hidden
 }
 
-#container,
+.container,
 .fallback,
 .overlay,
 .sc-h {
@@ -100,11 +100,12 @@ body {
     z-index: 101
 }
 
-#container {
-    opacity: .055
+.container {
+    opacity: 1;
+    background-image: url("../img/bg-fallback.jpg");
 }
 
-#container.con-opacity {
+.container.con-opacity {
     opacity: .015
 }
 
